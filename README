@@ -1,0 +1,5 @@
+This repository provides a simple pipeline for performing ancestral sequence reconstruction (ASR) using GRASP (GRASP website), as described in Foley, Gabriel, et al. "Engineering indel and substitution variants of diverse and ancient enzymes using Graphical Representation of Ancestral Sequence Predictions (GRASP)." PLOS Computational Biology, 18.10 (2022): e1010633.
+
+How to use:
+
+Simply add your sequences in FASTA format in a file. Set the variable FASTA_FILE to have the same name as your fasta file, for example if your file is DNase.fa set the variable FASTA_FILE as DNase.fa. 
