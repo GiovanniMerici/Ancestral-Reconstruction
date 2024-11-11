@@ -6,11 +6,11 @@ Simply add your sequences in FASTA format in a file. Set the variable FASTA_FILE
 
 INPUT Required:
 
-filre with fasta sequences
+File with fasta sequences
 
 OUTPUT:
 
-aligment of sequences
+Aligment of sequences
 Tree of sequences
 File with all the ancestral sequences, one for each node
 Tree with annotated ancestral nodes
