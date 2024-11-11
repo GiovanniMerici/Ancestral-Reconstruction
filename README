@@ -2,6 +2,7 @@ This repository provides a simple pipeline for performing ancestral sequence rec
 
 How to use:
 
+Open the Notebook on Google Colab
 Simply add your sequences in FASTA format in a file. Set the variable FASTA_FILE to have the same name as your fasta file, for example if your file is DNase.fa set the variable FASTA_FILE as DNase.fa. 
 
 INPUT Required:
