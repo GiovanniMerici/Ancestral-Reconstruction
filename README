@@ -1,9 +1,9 @@
-🧬 GRASP Ancestral Sequence Reconstruction (ASR) – Colab Pipeline
+# 🧬 GRASP Ancestral Sequence Reconstruction (ASR) – Colab Pipeline
 
 This repository provides a simple, user-friendly pipeline to perform Ancestral Sequence Reconstruction (ASR) using GRASP, as described in:
 Foley, Gabriel, et al. “Engineering indel and substitution variants of diverse and ancient enzymes using Graphical Representation of Ancestral Sequence Predictions (GRASP).” PLOS Computational Biology 18.10 (2022): e1010633.
 
-📓 What is this?
+## 📓 What is this?
 A ready-to-run Google Colab notebook that:
 
 Aligns your input protein sequences
@@ -16,7 +16,7 @@ Outputs all relevant files including alignment, tree, and reconstructed ancestor
 
 No local installation required. Everything runs in the cloud!
 
-🚀 Quick Start
+## 🚀 Quick Start
 Open the notebook: 📗 Grasp.ipynb
 
 Upload your protein sequences in FASTA format (.fa or .fasta)
@@ -24,7 +24,7 @@ Upload your protein sequences in FASTA format (.fa or .fasta)
 In the notebook, set the name of your input file
 Then just run all cells.
 
-📥 Input
+## 📥 Input
 A single FASTA file with protein sequences (amino acids)
 
 Example:
@@ -34,7 +34,7 @@ MSEQNNTEMTFQIQRIYTKDISFEAPNAPHVFQ...
 MAQQQQQQQQLLSSSRTFLKIEGILNSNKDL...
 
 
-📤 Output
+## 📤 Output
 
 The notebook automatically generates:
 
