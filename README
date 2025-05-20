@@ -1,4 +1,4 @@
-#🧬 GRASP Ancestral Sequence Reconstruction (ASR) – Colab Pipeline
+🧬 GRASP Ancestral Sequence Reconstruction (ASR) – Colab Pipeline
 
 This repository provides a simple, user-friendly pipeline to perform Ancestral Sequence Reconstruction (ASR) using GRASP, as described in:
 Foley, Gabriel, et al. “Engineering indel and substitution variants of diverse and ancient enzymes using Graphical Representation of Ancestral Sequence Predictions (GRASP).” PLOS Computational Biology 18.10 (2022): e1010633.
