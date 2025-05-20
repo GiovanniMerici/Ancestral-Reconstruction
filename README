@@ -1,18 +1,48 @@
-This repository provides a simple pipeline for performing ancestral sequence reconstruction (ASR) using GRASP (GRASP website), as described in Foley, Gabriel, et al. "Engineering indel and substitution variants of diverse and ancient enzymes using Graphical Representation of Ancestral Sequence Predictions (GRASP)." PLOS Computational Biology, 18.10 (2022): e1010633.
+🧬 GRASP Ancestral Sequence Reconstruction (ASR) – Colab Pipeline
 
-How to use:
+This repository provides a simple, user-friendly pipeline to perform Ancestral Sequence Reconstruction (ASR) using GRASP, as described in:
+Foley, Gabriel, et al. “Engineering indel and substitution variants of diverse and ancient enzymes using Graphical Representation of Ancestral Sequence Predictions (GRASP).” PLOS Computational Biology 18.10 (2022): e1010633.
 
-Open the Notebook on Google Colab
-Simply add your sequences in FASTA format in a file. Set the variable fasta_file to have the same name as your fasta file.
-For example if your file is DNase.fa set the variable fasta_file as DNase.fa. 
+📓 What is this?
+A ready-to-run Google Colab notebook that:
 
-INPUT Required:
+Aligns your input protein sequences
 
-File with fasta sequences
+Builds a phylogenetic tree
 
-OUTPUT:
+Infers ancestral protein sequences at all internal nodes
 
-Aligment of sequences
-Tree of sequences
-File with all the ancestral sequences, one for each node
-Tree with annotated ancestral nodes
+Outputs all relevant files including alignment, tree, and reconstructed ancestors
+
+No local installation required. Everything runs in the cloud!
+
+🚀 Quick Start
+Open the notebook: 📗 Grasp.ipynb
+
+Upload your protein sequences in FASTA format (.fa or .fasta)
+
+In the notebook, set the name of your input file
+Then just run all cells.
+
+📥 Input
+A single FASTA file with protein sequences (amino acids)
+
+Example:
+>Sequence1
+MSEQNNTEMTFQIQRIYTKDISFEAPNAPHVFQ...
+>Sequence2
+MAQQQQQQQQLLSSSRTFLKIEGILNSNKDL...
+
+
+📤 Output
+
+The notebook automatically generates:
+
+✅ Multiple sequence alignment (.fasta)
+
+🌳 Phylogenetic tree of your sequences (.nwk)
+
+🧠 A FASTA file containing ancestral sequences for all internal nodes
+
+🧬 Annotated phylogenetic tree with ancestral node labels
+
